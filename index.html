@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>My Personal Profile | CMSC 207</title>
+</head>
+<body>
+    <!-- Header Section Code-->
+    <header class="header">
+        <a href="#home" class="logo">Mary Chris Lacanilao</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!--Home Section Code-->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="images/Profile.jpg" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h3>Hello, my name is</h3>
+            <h1>Mary Chris B. Lacanilao</h1>
+            <h3>and I am <span class="multiple-text"></span></h3>
+            <p>Let's create a better world while valuing what matters, one project at a time.</p>
+        </div>
+    </section>
+    
+    <!--About Section Code-->
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>I'm a problem solver and a tech enthusiast.</h3>
+            <p>I envision myself to be a tech-savvy business leader.</p> 
+            <p>I am a problem solver at heart, but I didn't learn my best lessons in a textbook.</p>
+
+            <button class="button" id="knowMoreBtn"><span>Know More</span></button>
+
+            <div id="funFactContainer" class="hidden-fact">
+                <p id="funFactText"></p>
+            </div>
+        </div>
+        
+        <div class="about-img">
+            <img src="images/About.png" alt="About Image">
+        </div>
+    </section>
+      
+    <!--Hobbies Section Code-->
+    <section class="hobbies" id="hobbies">
+        <h2 class="heading"><span>My Hobbies</span></h2>
+
+        <div class="hobbies-container">
+            <div class="hobby-box">
+                <i class='bx bxs-book-reader'></i>
+                <h3>Reading Books</h3>
+                <p>Recently, I enjoy reading self-help books. But my best pick is Harry Potter -- always. </p>
+            </div>
+        
+            <div class="hobby-box">
+                <i class='bx bxs-music'></i>
+                <h3>Listening to Dance Music</h3>
+                <p>My favorites are Martin Garrix, David Guetta, Hardwell, and Calvin Harris.</p>
+            </div>
+
+            <div class="hobby-box">
+                <i class='bx bxs-cat'></i>
+                <h3>Caring for my Cats</h3>
+                <p>I care for my 4 cats and spend time with them 24/7.</p>
+            </div>
+
+            <div class="hobby-box">
+                <i class='bx bx-trophy'></i>
+                <h3>Badminton</h3>
+                <p>I enjoy playing badminton wiith my friends during the weekends.</p>
+            </div>
+        </div>
+
+    <!-- Interests Section Code-->
+    <section class="interests" id="interests">
+        <h2 class="heading">My Interests</h2>
+
+        <div class="interests-container">
+            <div class="interest-box">
+                <i class='bx bx-bowl-hot'></i>
+                <h3>Learning Mandarin</h3>
+                <p>I am interested in Traditional Chinese history and culture.</p>
+            </div>
+
+            <div class="interest-box">
+                <i class='bx bx-recycle'></i>
+                <h3>Sustainable Living</h3>
+                <p>Let's try: reduce single-use plastics, use rechargeable batteries, or swap to energy-efficient bulbs.</p>
+            </div>
+
+            <div class="interest-box">
+                <i class='bx bx-history'></i>
+                <h3>Local History</h3>
+                <p>I love learning stories behind familiar streets by visiting museums, or joining heritage walks.</p>
+            </div>
+
+            <div class="interest-box">
+                <i class='bx bx-devices'></i>
+                <h3>Mobile Tech Reviews</h3>
+                <p>I enjoy watching and reading about specs and tracking release cycles of latest gadgets: mobile, tablet, laptop.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Contect Section Code-->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" name="Email" placeholder="Email Address">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <button class="btn">Send Message</button>            
+        </form>
+    </section>
+
+    <!--Footer Section Code-->
+    <footer class="footer">
+        <div class="social">
+            <a href="mailto:youremail@example.com"><i class='bx bxl-gmail' style='color:#ffffff'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <p class="copyright">
+            &copy; 2026 Mary Chris Lacanilao. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
