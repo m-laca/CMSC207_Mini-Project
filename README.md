@@ -13,31 +13,31 @@ This repository contains the source code for a responsive, interactive personal 
 
 ## Features
 
-💬 **Responsive Design**: The layout adapts smoothly to mobile, tablet, and desktop screens using CSS media queries.
+💬 **Responsive Design**: Adapts smoothly to mobile, tablet, and desktop screens using CSS media queries
 
-👆🏼 **Interactive Trivia Section**: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts.
+👆🏼 **Interactive Trivia Section**: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts
 
-⌨️ **Dynamic Typing Animation**: The hero section features a rotating text effect to display various professional identities.
+⌨️ **Dynamic Typing Animation**: The hero section features a text effect to display various professional identities
 
-🖱️ **Smooth Navigation & Animations**: The site includes a sticky navbar, smooth section scrolling, and CSS keyframe animations for floating profile images.
+🖱️ **Smooth Navigation & Animations**: Includes a sticky navbar, smooth section scrolling, and CSS keyframe animations for floating profile images
 
 ## Technologies Used
 
-1️⃣ **HTML5:** Structures the web content.
+1️⃣ **HTML5:** Structures the web content
 
-2️⃣ **CSS3:** Handles styling, custom variables, Flexbox layouts, and animations.
+2️⃣ **CSS3:** Handles styling, custom variables, Flexbox layouts, and animations
 
-3️⃣ **JavaScript (Vanilla):** Controls the mobile menu toggle and the interactive fact-revealing logic.
+3️⃣ **JavaScript (Vanilla):** Controls the mobile menu toggle and the interactive fact-revealing logic
 
-4️⃣ **Boxicons:** https://boxicons.com/ Provides the scalable vector icons used throughout the site.
+4️⃣ **Boxicons:** https://boxicons.com/ Provides the scalable vector icons used throughout the site
 
-5️⃣ **Typed.js:** https://mattboldt.com/demos/typed-js/ Generates the dynamic typing effect in the header.
+5️⃣ **Typed.js:** https://mattboldt.com/demos/typed-js/ Generates the dynamic typing effect in the header
 
 ## Project Structure
-* **index.html**: Contains the main structure and text content of the web profile.
+* **index.html**: Contains the main structure and text content of the web profile
   
-* **style.css**: Houses all styling rules, responsive media queries, and visual animations.
+* **style.css**: Houses all styling rules, responsive media queries, and visual animations
   
-* **script.js**: Executes the mobile menu interactions, Typed.js initialization, and the "Know More" button logic.
+* **script.js**: Executes the mobile menu interactions, Typed.js initialization, and the "Know More" button logic
   
-* **images/**: A directory storing the image assets.
+* **images/**: A directory storing the image assets
