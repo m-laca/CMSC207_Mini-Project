@@ -5,7 +5,7 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 ## Personal Web Profile
 
-###This repository contains the source code for a responsive, interactive personal portfolio website. 
+### This repository contains the source code for a responsive, interactive personal portfolio website. 
 
 👉🏼 I built this mini-project for my CMSC 207 class. 
 
