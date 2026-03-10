@@ -1,4 +1,4 @@
-# CMSC 207 Mini-Project: Build a Personal Web Profile
+# .📍 CMSC 207 Mini-Project: Build a Personal Web Profile
 Inspired by the website in the book _Create with Code: Build Your Own Website_ by Clyde Hatter
 
 🌟 Access my site here: https://m-laca.github.io/mblacanilao.github.io/
