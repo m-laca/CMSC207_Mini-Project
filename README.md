@@ -1,11 +1,11 @@
 # 📍 CMSC 207 Mini-Project: Build a Personal Web Profile
 Inspired by the website in the book _Create with Code: Build Your Own Website_ by Clyde Hatter
 
-🌟 Access my site here: https://m-laca.github.io/mblacanilao.github.io/
+🌐 https://m-laca.github.io/mblacanilao.github.io/
 
 ## Personal Web Profile
 
-### This repository contains the source code for a responsive, interactive personal portfolio website. 
+### This repository contains the source code for my personal web profile. 
 
 👉🏼 I built this mini-project for my CMSC 207 class. 
 
@@ -15,9 +15,9 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 💬 **Responsive Design**: Adapts smoothly to mobile, tablet, and desktop screens using CSS media queries
 
-👆🏼 **Interactive Trivia Section**: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts
-
 ⌨️ **Dynamic Typing Animation**: The hero section features a text effect to display various professional identities
+
+👆🏼 **Interactive Trivia Section**: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts
 
 🖱️ **Smooth Navigation & Animations**: Includes a sticky navbar, smooth section scrolling, and CSS keyframe animations for floating profile images
 
