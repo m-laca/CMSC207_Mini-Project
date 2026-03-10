@@ -23,21 +23,21 @@ This repository contains the source code for a responsive, interactive personal 
 
 ## Technologies Used
 
-1️⃣ HTML5: Structures the web content.
+1️⃣ **HTML5:** Structures the web content.
 
-2️⃣ CSS3: Handles styling, custom variables, Flexbox layouts, and animations.
+2️⃣ **CSS3:** Handles styling, custom variables, Flexbox layouts, and animations.
 
-3️⃣ JavaScript (Vanilla): Controls the mobile menu toggle and the interactive fact-revealing logic.
+3️⃣ **JavaScript (Vanilla):** Controls the mobile menu toggle and the interactive fact-revealing logic.
 
 4️⃣ **Boxicons:** https://boxicons.com/ Provides the scalable vector icons used throughout the site.
 
 5️⃣ **Typed.js:** https://mattboldt.com/demos/typed-js/ Generates the dynamic typing effect in the header.
 
 ## Project Structure
-* index.html: Contains the main structure and text content of the web profile.
+* **index.html**: Contains the main structure and text content of the web profile.
   
-* style.css: Houses all styling rules, responsive media queries, and visual animations.
+* **style.css**: Houses all styling rules, responsive media queries, and visual animations.
   
-* script.js: Executes the mobile menu interactions, Typed.js initialization, and the "Know More" button logic.
+* **script.js**: Executes the mobile menu interactions, Typed.js initialization, and the "Know More" button logic.
   
-* images/: A directory storing the image assets.
+* **images/**: A directory storing the image assets.
