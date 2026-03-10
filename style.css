@@ -267,9 +267,24 @@ span {
     }
 }
 
-/* Hobbies & Interests Section Code */
+/* Hobbies Section Code */
 .hobbies {
-    margin-bottom: 5rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    min-height: auto; 
+    padding-bottom: 4rem; 
+    margin-bottom: 2rem; 
+}
+
+.hobbies h2 {
+    line-height: 1.2;
+    text-align: center;
+    color: var(--bg-color);
+    margin-bottom: 4rem;
 }
 
 .hobbies-container {
@@ -309,8 +324,9 @@ span {
     margin: 1rem 0 3rem;
 }
 
+/* Interests Section Code */
+
 .interests {
-    margin-bottom: 5rem;
     background: var(--main-color);
     width: 100vw;
     position: relative;
@@ -320,13 +336,14 @@ span {
     margin-right: -50vw;
     min-height: auto; 
     padding-bottom: 4rem; 
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
 
 .interests h2 {
     line-height: 1.2;
     text-align: center;
     color: var(--bg-color);
+    margin-bottom: 4rem;
 }
 
 .interests-container {
