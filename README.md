@@ -1,32 +1,40 @@
-# mblacanilao.github.io
-CMSC 207 Mini-Project: Build a Personal Web Profile
-
-# Personal Web Development Portfolio
-
-Welcome to my web development repository. This space showcases the projects I build to strengthen my technical skills and track my progress in software development.
+# CMSC 207 Mini-Project: Build a Personal Web Profile
+Inspired by the website in the book _Create with Code: Build Your Own Website_ by Clyde Hatter
 
 Access my site here: https://m-laca.github.io/mblacanilao.github.io/
 
-## About Me
+# Personal Web Profile
 
-I hold a Bachelor of Science in Chemical Engineering from the University of the Philippines Los Baños. Currently, I am expanding my expertise in the IT sector and aiming for a career as a technology manager. I use this repository to store my coding coursework, including assignments from my CMSC 207 class, and personal coding projects. When I step away from the computer, I enjoy playing badminton, exploring web design trends, and taking care of my cats.
+This repository contains the source code for a responsive, interactive personal portfolio website. 
 
-## Technical Skills
+I built this mini-project for my CMSC 207 class. 
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | HTML5, CSS3, JavaScript |
-| **Tools** | Git, GitHub |
-| **Deployment** | GitHub Pages, Vercel, Netlify |
+The site serves as a digital resume and highlights my academic journey, professional background in project management, and personal interests. 
 
-## Featured Projects
+## Features
 
-Here are the key web development projects I maintain:
+* Responsive Design: The layout adapts smoothly to mobile, tablet, and desktop screens using CSS media queries.
+* Interactive Trivia Section: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts.
+* Dynamic Typing Animation: The hero section features a rotating text effect to display various professional identities.
+* Smooth Navigation & Animations: The site includes a sticky navbar, smooth section scrolling, and CSS keyframe animations for floating profile images.
 
-* **Personal Web Profile:** A responsive single-page website built with HTML, CSS, and JavaScript that serves as my online resume and portfolio.
+## Technologies Used
 
-## Contact Information
+* HTML5: Structures the web content.
 
-* **LinkedIn:** [Link to your LinkedIn profile]
-* **GitHub:** [Link to your GitHub profile]
-* **Email:** [Your Email Address]
+* CSS3: Handles styling, custom variables, Flexbox layouts, and animations.
+
+* JavaScript (Vanilla): Controls the mobile menu toggle and the interactive fact-revealing logic.
+
+* **Boxicons:** https://boxicons.com/ Provides the scalable vector icons used throughout the site.
+
+* **Typed.js:** https://mattboldt.com/demos/typed-js/ Generates the dynamic typing effect in the header.
+
+## Project Structure
+* index.html: Contains the main structure and text content of the web profile.
+  
+* style.css: Houses all styling rules, responsive media queries, and visual animations.
+  
+* script.js: Executes the mobile menu interactions, Typed.js initialization, and the "Know More" button logic.
+  
+* images/: A directory storing the Profile.jpg and About.png image assets.
