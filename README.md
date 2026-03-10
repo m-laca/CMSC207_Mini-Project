@@ -11,6 +11,8 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 📃 The site highlights my academic journey, professional background in project management, and personal interests. 
 
+🌟 TIP! Hover on the images to see an effect! 
+
 ## Features
 
 💬 **Responsive Design**: Adapts smoothly to mobile, tablet, and desktop screens using CSS media queries
