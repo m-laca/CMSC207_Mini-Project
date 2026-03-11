@@ -30,13 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create an array holding all your fun facts
     const facts = [
         "I took a full decade to finish my five-year Chemical Engineering degree at UPLB. Resilience is not just a buzzword for me: it is my lived experience.",
-        "I experienced every academic status possible at UPLB: good, warning, probation, dismissal, and even permanent dismissal. I have seen every grade on a class card except for a 'Drop.'",
+        "I experienced every academic status possible at UPLB: good, warning, probation, dismissal, and even permanent dismissal. I have seen every grade on a class card except for a <i>>Drop.</i>",
         "I learned my most valuable project management skills from my student org, <b>UPLB SChemES</b>. Managing budgets and leading teams there taught me more than any lecture hall ever could.",
         "I turned my academic setbacks into a <i>character development</i> arc. I realized I learn best when I can apply logic to real-world problems.",
-        "Since graduating, I have earned a Graduate Diploma in Project Management (PUP Graduate School) and I aced my classes.",
-        "I am currently finishing another Diploma in Computer Science (UPOU) to bridge the gap between engineering and IT.",
+        "Since graduating, I have earned a <b>Graduate Diploma in Project Management</b> (PUP Graduate School) and I aced my classes.",
+        "I am currently finishing another <b>Diploma in Computer Science</b> (UPOU) to bridge the gap between engineering and IT.",
         "I am a dual-certified Project Management Professional. I hold both the <b>PMI-PMP</b> and <b>IPMA Level D</b> credentials.",
-        "I never stop leveling up. I am currently pursuing my PSM II and PSPO II certifications to solidify my expertise in Agile leadership.",
+        "I never stop leveling up. I am currently pursuing my <b>PSM II</b> and <b>PSPO II</b> certifications to solidify my expertise in Agile leadership.",
         "I believe a well-managed life needs planned downtime too. I am usually busy with my hobbies."
     ];
 
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentFactIndex < facts.length) {
             
             // Inject the current fact into the HTML
-            funFactText.innerHTML = `<strong>Fact ${currentFactIndex + 1}:</strong> ${facts[currentFactIndex]}`;
+            funFactText.innerHTML = `<strong>Fun Fact ${currentFactIndex + 1}:</strong> ${facts[currentFactIndex]}`;
             
             // Increase the counter for the next click
             currentFactIndex++;
