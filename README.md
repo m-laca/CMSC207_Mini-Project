@@ -3,6 +3,7 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 🌐 https://m-laca.github.io/CMSC207_Mini-Project/
 
+
 ## Personal Web Profile
 
 ### This repository contains the source code for my personal web profile. 
@@ -13,6 +14,7 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 🌟 TIP! Hover on the images to see an effect! 
 
+
 ## Features
 
 💬 **Responsive Design**: Adapts smoothly to mobile, tablet, and desktop screens using CSS media queries
@@ -22,6 +24,7 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 👆🏼 **Interactive Trivia Section**: A custom JavaScript function powers a "Know More" button that cycles through an array of personal and professional facts
 
 🖱️ **Smooth Navigation & Animations**: Includes a sticky navbar, smooth section scrolling, and CSS keyframe animations for floating profile images
+
 
 ## Technologies Used
 
@@ -35,7 +38,9 @@ Inspired by the website in the book _Create with Code: Build Your Own Website_ b
 
 5️⃣ **Typed.js:** https://mattboldt.com/demos/typed-js/ Generates the dynamic typing effect in the header
 
+
 ## Project Structure
+
 * **index.html**: Contains the main structure and text content of the web profile
   
 * **style.css**: Houses all styling rules, responsive media queries, and visual animations
